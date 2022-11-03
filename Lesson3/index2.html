@@ -9,6 +9,7 @@
         *{
             margin: 0px;
             padding: 0px;
+            box-sizing: border-box;
         }
         body{
             background-color: beige;
@@ -19,86 +20,128 @@
         }
         .hong{
             background-color: lightpink;
-            height: 30px;
-            width: 100%;
+            height: 50px;
+            width: 99.5%;
+            border: 1px solid #fff;
+            margin: 10px;
+            padding-right: 10px;
         }
-        .footer{
+        .den{
             background-color: black;
-            height: 30px;
-            width: 100%;
-        }
-        .traitren{
-            background-color: aqua;
-            width: 750px;
-            height: 300px;
-        }    
-        .traiduoi{
-            width: 750px;
-            height: 300px;
-            display: flex;
-        }
-        .traiduoi1_1{
-            background-color: red;
-            height: 100px;
-            width: 375px;
-        }
-        .traiduoi1_2{
-            background-color: orange;
-            height: 200px;
-            width: 375px;
-        }
-        .traiduoi2{
-            background-color: rgb(254, 62, 94);
-            width: 375px;
-            height: 300px;
-            float: left;
+            height: 50px;
+            width: 99.5%;
+            margin: 30px 0px 0px 10px;
         }
         .giua{
             display: flex;
+            border: 0px;
         }
+        .trai{
+            width: 60%;
+            height: 1000px;
+            border: 0px;
+        }
+        .baotraitren{
+            width: 100%;
+            height: 50%;
+            border: 0px;
+            padding-right: 20px;
+        }
+        .traitren{
+            background-color:aqua;
+            width: 99.5%;
+            height: 100%;
+            margin: 0px 10px;
+            border: 1px solid #fff;
+        }    
+        .traiduoi{
+            width: 100%;
+            height: 50%;
+            display: flex;
+            border: 0px;
+        }
+        .traiduoi1{
+            width: 50%;
+            height: 100%;
+            border: 0px;
+            border-right: 10px solid beige;
+        }
+        .traiduoi1_1{
+            background-color: red;
+            height: 50%;
+            width: 100%;
+            margin: 10px 10px 10px 10px;
+        }
+        .traiduoi1_2{
+            background-color: orange;
+            height: 50%;
+            width: 100%;
+            margin: 10px 10px 10px 10px;
+        }
+        .traiduoi2{
+            background-color: rgb(254, 62, 94);
+            width: 50%;
+            height: 102%;
+            margin: 10px 10px 10px 10px;
+        }
+        
         .phai{
-            width: 750px;
+            width: 40%;
+            height: 1000px;
+            border: 0px;
         }
         .phai1{
             display: flex;
+            height: 20%;
+            border: 0px;
+            margin-bottom: 10px;
         }
         .phai1_1{
             width: 80%;
-            height: 100px;
+            height: 100%;
             background-color: blueviolet;
+            margin: 0px 10px 10px 0px;
+
         }
         .phai1_2{
+            margin: 0px 0px 10px 0px;
             width: 20%;
-            height: 100px;
+            height: 100%;
             background-color: green;
         }
         .phai2{
             width: 100%;
             background-color: yellow;
-            height: 50px;
+            height: 10%;
+            margin-bottom: 10px;
         }
         .phai3{
             display: flex;
-            width: 750px;
+            border: 0px;
+            margin-bottom: 10px;
+            width: 100%;
+            height: 30%
         }
         .phai3_1{
-            width: 34%;
+            width: 33%;
             background-color: green;
-            height: 300px;
+            height: 100%;
+            margin: 0px 10px 10px 0px;
         }
         .phai3_2{
             width: 35%;
             background-color: red;
-            height: 300px;
+            height:100%;
+            margin: 0px 10px 10px 0px;
         }
         .phai3_3{
             width: 35%;
             background-color: green;
-            height: 300px;
+            height: 100%;
         }
         .phai4{
-            width: 750px;
-            height: 140px;
+            width: 100%;
+            height: 39%;
             background-color: burlywood;
         }
         </style>
@@ -108,7 +151,9 @@
 
     <div class="giua">
         <div class="trai">
+            <div class="baotraitren">
             <div class="traitren"></div>
+        </div>
             <div class="traiduoi">
                 <div class="traiduoi1">
                     <div class="traiduoi1_1"></div>
@@ -134,6 +179,6 @@
 
     </div>
 
-    <div class="footer"></div>
+    <div class="den"></div>
 </body>
 </html>
