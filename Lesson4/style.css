@@ -22,7 +22,7 @@
     height: 60px;
     margin: 60px 18px 60px 50px;
 }
-h1{
+.header-1 h1{
     margin-top: 70px;
     color: white;
     font-size: 30px;
@@ -117,5 +117,12 @@ p{
     height: 10%;
     background-color:gray;
     width: 100%;
+}
+.footer h1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    padding-top: 20px;
 }
 
