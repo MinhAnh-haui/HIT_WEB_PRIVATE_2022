@@ -101,3 +101,12 @@ button {
     border-radius: 50px;
     padding: 3px;
 }
+.find{
+    position: relative;
+}
+.fa-magnifying-glass{
+    position: absolute;
+    top: 16px;
+    right: 7px;
+    font-size: 10px;
+}
