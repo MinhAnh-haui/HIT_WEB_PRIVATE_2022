@@ -103,6 +103,7 @@ button {
 }
 .find{
     position: relative;
+    height: 30px;
 }
 .fa-magnifying-glass{
     position: absolute;
