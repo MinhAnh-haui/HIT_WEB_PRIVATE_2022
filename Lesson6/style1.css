@@ -9,7 +9,7 @@
 .container-home{
     width: 100%;
     height: 100vh;
-    background-image: url('home.jpg');
+    background-image: url('https://media.istockphoto.com/id/1287169114/photo/vintage-christmas-background-with-red-and-white-balls-decoration-fir-tree-branches-candy.jpg?s=612x612&w=0&k=20&c=sQ_DDGlNKDUm2NsNrxoPtrDTSGAOoXaDnxTDHmz5JrY=');
     background-repeat: no-repeat;
     background-size: cover;
     background-color: aliceblue;
@@ -17,6 +17,7 @@
 }
 .container-home-menu{
     width:100%;
+    position: fixed;
     /*: 100px;*/
     background-color: white;
     display: flex;
@@ -164,7 +165,7 @@
 .container-service-content-1 h3{
     font-size: 50px;
     margin-top: 15px;
-    font-family: Merriweather;!important
+    font-family: Merriweather;
 }
 .container-service-content-1 span{
     margin-top: 15px;
