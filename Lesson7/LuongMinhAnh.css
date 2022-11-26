@@ -1,0 +1,125 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    width: 100%;
+    height: 30%;
+    background-color: aqua;
+    display: flex;
+}
+.header img{
+    margin-right: 300px;
+    height: 80px;
+    width: 300px;
+}
+.tin1{
+    display: flex;
+}
+.tin{
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    margin: 30px;
+}
+.header .find{
+    margin-top:50px;
+}
+.menu{
+    width: 100%;
+    background-color: black;
+    height: 10%;
+}
+.menu ul{
+    display: flex;
+    justify-content: space-around;
+}
+.menu ul li{
+    width: 150px;
+    display: block;
+    
+    list-style-type: none;
+}
+.menu ul li a{
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 10px;
+    color: white;
+    text-decoration: none;
+}
+.menu ul li:hover a{
+    background-color: #FF3399;
+    
+}
+.ctmenucon{
+    width: 800px;
+    height: 50px;
+    background-color: white;
+}
+.ct1{
+    display: flex;
+}
+.ct1-1{
+    margin-top: 50px;
+}
+.ct1 img{
+    height: 90px;
+    margin-top: 30px;
+}
+.menu ul li .menucon{
+    display: none;
+}
+.menu ul li:hover .menucon{
+    display: block;
+}
+.gala{
+    background-color: rgb(255, 238, 0);
+    color: white;
+    margin-right: 100px;
+    width: 350px;
+}
+.menuct{
+    margin-top: 20px;
+    display: flex;
+    width: 100%;
+    background-color: white;
+    justify-content: space-between;
+}
+.mainmenu ul{
+    display: flex;
+}
+.mainmenu ul li{
+    width: 100px;
+    font-size: 10px;
+    list-style-type: none;
+
+}
+.mainmenu ul li a{
+    text-decoration: none;
+}
+.left{
+    display: grid;
+    
+    grid-template-columns: 100px 100px ;
+    grid-template-rows: 200px 200px;
+}
+.spham{
+    display: flex;
+}
+.right{
+    display: flex;
+}
+.sp1{
+    display: flex;
+    text-align: center;
+    flex-direction: column;;
+}
+.sp1 img{
+    height: 300px;
+    width: 200px;
+}
+.gala{
+    width: 300px;
+}
+

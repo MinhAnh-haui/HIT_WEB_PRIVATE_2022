@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="LuongMinhAnh.css">
+</head>
+<body>
+    <div class="header">
+        <div class="anh">
+            <img src="data:image/png;base64,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">
+        </div>
+        <div class="find">
+            <input type=text" placeholder="Nhập tên điện thoại>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="tin1">
+            <div class="tin">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Thông tin hay</span>
+            </div>
+            <div class="tin">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Điện nước</span>
+            </div>
+            <div class="tin">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <span>Giỏ hàng</span>
+            </div>
+        </div>
+        
+    </div>
+    <div class="menu">
+        <ul>
+            <li><a href="#">ĐIỆN THOẠI</a></li>
+            <li><a href="#">LAPTOP</a></li>
+            <li><a href="#">APPLE</a></li>
+            <li><a href="#">PC-LINK KIỆN</a></li>
+            <li><a href="#">PHỤ KIỆN</a>
+                <div class="menucon">
+                    <div class="ctmenucon">
+                        <h2>BÁN CHẠY NHẤT</h2>
+                        <div class="ct1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                            <div class="ct1-1">
+                                <span>Combo Loa Bluetooth Karaoke<br>
+                                    <span style="color: red">2.790.000</span>
+                                    </span>
+                            </div>
+                        </div>
+                        <div class="ct1">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                            <div class="ct1-1">
+                                <span>Combo Loa Bluetooth Karaoke<br>
+                                    <span style="color: red">2.790.000</span>
+                                    </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </li>
+            <li><a href="#">MÁY CŨ GIÁ RẺ</a></li>
+            <li><a href="#">HÀNG GIA DỤNG</a></li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="menuct">
+            <div class="gala">
+                <h1>GALAXY NOTE</h1>
+            </div>
+            <div class="mainmenu">
+                <ul>
+                    <li><a href="">Galaxy Note 10+</a></li>
+                    <li><a href="">Galaxy Note 10+</a></li>
+                    <li><a href="">Galaxy Note 10+</a></li>
+                    <li><a href="">Galaxy Note 10+</a></li>
+                    <li><a href="">Galaxy Note 10+</a></li>
+                    <li><a href="">Galaxy Note 10+</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="spham">
+            <div class="left">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+            </div>
+            <div class="right">
+                <div class="sp1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                    <span>Tai nghe over AKG Y500 chính hãng SSVN</span>
+                    <span style="color: red">1,990,000</span>
+                    <span style="text-decoration:line-through; color: gray">3,990,000</span>
+                </div>
+
+                <div class="sp1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                    <span>Tai nghe over AKG Y500 chính hãng SSVN</span>
+                    <span style="color: red">1,990,000</span>
+                    <span style="text-decoration:line-through; color: gray">3,990,000</span>
+                </div>
+                <div class="sp1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                    <span>Tai nghe over AKG Y500 chính hãng SSVN</span>
+                    <span style="color: red">1,990,000</span>
+                    <span style="text-decoration:line-through; color: gray">3,990,000</span>
+                </div>
+                <div class="sp1">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRedVDt6A1-WqkxlKt1scaNThVhFyAUkDvRm6GcP_E&s">
+                    <span>Tai nghe over AKG Y500 chính hãng SSVN</span>
+                    <span style="color: red">1,990,000</span>
+                    <span style="text-decoration:line-through; color: gray">3,990,000</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
