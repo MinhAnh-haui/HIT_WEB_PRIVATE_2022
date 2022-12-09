@@ -1,0 +1,484 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    width: 100%;
+    height: 400vh;
+}
+.container-home{
+    width: 100%;
+    height: 100vh;
+    background-image: url('https://anhdepfree.com/wp-content/uploads/2020/04/anh-nen-4k-ve-thien-nhien.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aliceblue;
+    /*opacity: 0.5;*/
+}
+.container-home-menu{
+    width:100%;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    position: fixed;
+}
+.container-home-menu-title{
+    margin-left: 30px;
+}
+.container-home-menu-title > h3{
+    width: 100%;
+    margin-top: 10px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: Merriweather;
+    color: black;
+    font-weight: 1500;
+}
+.container-home-menu-list nav ul{
+    display: flex;
+    list-style-type: none;
+    margin-top: 20px;
+    font-size: 15px;
+    font-family: Merriweather;
+    justify-content: space-around;
+    font-weight: 600;
+}
+.container-home-menu-list{
+    width: 50%;
+}
+.container-home-main{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-home-main-slogan{
+    font-family: Merriweather;
+    font-size: 25px;
+    text-align: center;
+    color: white;
+    margin-top: 300px;
+}
+.container-home-main-content{
+    font-size: 20px;
+    color: white;
+    margin: 30px 100px 30px 100px;
+    text-align: center;
+}
+.container-home-main-button{
+    background-color: rgb(255, 55, 0);
+    border: none;
+    padding: 15px 20px;
+    border-radius: 70px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-family: Merriweather;
+}
+.container-about{
+    width: 100%;
+    height: 80vh;
+    background-color: rgb(255, 77, 0);;
+}
+.container-about-main{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-about-main-slogan{
+    font-family: Merriweather;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    margin-top: 200px;
+}
+.container-about-main-content{
+    font-size: 18px;
+    color: white;
+    margin: 20px 100px 10px 100px;
+    text-align: center;
+}
+.container-about-main-button{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 70px;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: black;
+    font-weight: 600;
+    font-family: Merriweather;
+}
+.container-service{
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+}
+.container-service-main{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-service-main-slogan {
+    color: black;
+    font-size: 20px;
+}
+.fa-gem, .fa-laptop, .fa-globe, .fa-heart{
+    color: red;
+    font-size: 30px;
+}
+.container-service-content{
+    display: flex;
+    font-family: merriweather;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.container-service-content-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 0px 20px;
+    width: 210px;
+}
+.container-service-main-slogan h3{
+    font-size: 40px;
+    font-family: Merriweather;
+}
+.container-service-content-1 h3{
+    font-size: 25px;
+    margin-top: 15px;
+    font-family: Merriweather;
+}
+.container-service-content-1 span{
+    margin-top: 15px;
+    font-size: 15px;
+}
+.container-portfolio-picture{
+    display: grid;
+    grid-template-columns:  calc(100%/3) calc(100%/3) calc(100%/3);
+    grid-template-rows: 250px 250px;
+    width: 100%;
+}
+.container-portfolio-picture-baby img{
+    width: 100%;
+    height: 100%;
+}
+.container-portfolio-main{
+    width: 100%;
+    height: 50vh;
+    background-color: rgb(81, 74, 74);
+    color: white;
+}
+.container-portfolio-main h2{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+}
+.container-portfolio-main-button{
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 70px;
+    font-size: 15px;
+    margin-top: 30px;
+    margin-left: 550px;
+    margin-right: 200px;
+    margin-bottom: 50px;
+    color: black;
+    font-weight: 600;
+    font-family: Merriweather;
+}
+.container-contact-main{
+    margin: auto;
+    width: 60%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-contact-main-slogan{
+    font-family: Merriweather;
+    font-size: 30px;
+    text-align: center;
+    color: black;
+    margin-top: 150px;
+}
+.container-contact-main-content{
+    font-size: 20px;
+    color: black;
+    margin: 30px 100px 30px 100px;
+    text-align: center;
+}
+.container-contact-main-button{
+    background-color: rgb(237, 52, 52);
+    border: none;
+    padding: 20px 230px;
+    border-radius: 70px;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
+    color: white;
+    font-weight: 600;
+    font-family: Merriweather;
+}
+.container-contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.container-contact-form input{
+    margin: 10px;
+    width: 500px;
+    height: 30px;
+    font-size: 15px;
+    font-family: Merriweather;
+    padding: 15px;
+    color: black;
+    border-radius: 10px;
+}
+.container-contact-form input:focus{
+    outline: 5px solid pink;
+    border: 1px solid rgb(239, 117, 137);
+}
+.container-contact-number{
+    display: flex;
+    margin-top: 50px;
+    flex-direction: column;
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.container-footer{
+    width: 100%;
+    height: 60px;
+    font-size: 20px;
+    background-color: aliceblue;
+    color: gray;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ipad mini */
+@media only screen and (max-width: 768px) {
+.container-home{
+    height: 50vh;
+}
+.container-home-menu-list{
+    display: none;
+}
+.container-home-main-slogan{
+    font-size: 18px;
+}
+.container-home-main-content{
+    font-size: 15px;
+    margin: 20px 80px;
+}
+.container-home-main-button{
+    border-radius: 15px;
+    width: 150px;
+    font-size: 15px;
+    padding: 10px 20px;
+    margin-bottom: 30px;
+}
+.container-about{
+    height: 50vh;
+}
+.container-about-main-slogan{
+    font-size: 20px;
+    margin-top: 0px;
+}
+.container-about-main-content{
+    font-size: 20px;
+    margin: 10px 30px;
+}
+.container-about-main{
+    width: 100%;
+    height: 100%;
+}
+.container-about-main-button{
+    padding: 20px 20px;
+}
+.container-service{
+    height: 70vh;
+}
+.container-service-content{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.container-service-main-slogan > h3{
+    font-size: 30px;
+    margin-left: 0px;
+    margin-top: 50px;
+}
+.container-service-content{
+    margin-right: 60px;
+    width: 100%;
+    margin-top: 50px;
+}
+.container-service-content-1{
+    width: 150px;
+    margin-top: 50px;
+}
+.container-service-content-1 > h3{
+    font-size: 20px;
+    width: 230px;
+}
+.container-service-content-1 > i{
+    width: 230px;
+}
+.container-service-content-1 > span{
+    font-size: 15px;
+    width: 230px;
+    text-align: center;
+}
+.container-portfolio{
+    height: 100vh;
+}
+.container-portfolio-main{
+    height: 30vh;
+}
+.container-portfolio-picture{
+    display: grid;
+    grid-template-columns:  calc(100%/2) calc(100%/2);
+    grid-template-rows: 200px 200px ;
+    width: 100%;
+}
+.container-portfolio-main-button{
+    margin-left: 300px;
+}
+.container-portfolio-main-slogan > h2{
+    font-size: 30px;
+}
+.container-contact-main-content{
+    width: 500px;
+}
+.container-contact{
+    height: 100vh;
+}
+.container{
+    height: 280vh;
+}
+.container-contact-main-slogan{
+    font-size: 25px;
+    margin-top: 400px;
+}
+.container-contact-number{
+    margin-bottom: 300px;
+}
+.container-footer{
+    margin-top: 200px;
+}
+}
+/* Ip 12 pro, samsung */
+@media only screen and (max-width: 390px) {
+.container-home-main-slogan > h1{
+    font-size: 20px;
+}
+.container{
+    width: 200%;
+}
+.container-home-menu{
+    height: 120px;
+}
+.container-home-menu-title > h3{
+    font-size: 50px;
+    margin-top: 30px;
+}
+.container-home{
+    font-size: 10px;
+    width: 100%;
+    height: 1500px;
+}
+.container-home-main-slogan > h1{
+    font-size: 60px;
+}
+.container-home-main{
+    width: 85%;
+}
+.container-home-main-content{
+    font-size: 30px;
+}
+.container-home-main-button{
+    border-radius: 30px;
+    font-size: 30px;
+    width: 300px;
+}
+.container-about{
+    height: 1500px;
+}
+.container-about-main-slogan{
+    font-size: 50px;
+}
+.container-about-main-content{
+    font-size: 40px;
+}
+.container-service{
+    height: 2100px;
+}
+.container-service-content{
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+.container-service-main{
+    text-align: center;
+}
+.container-service-main-slogan > h3{
+    font-size: 60px;
+    width: 100%;
+    margin-bottom: 80px;
+    margin-top: 700px;
+}
+.container-service-content-1{
+    width: 100%;
+}
+.container-service-content-1 > h3{
+    font-size: 50px;
+    width: 100%;
+}
+.container-service-content-1 i{
+    width: 100%;
+    font-size: 35px;
+}
+.container-service-content-1 span{
+    width: 100%;
+    font-size: 40px;
+    margin-bottom: 80px;
+}
+.container-portfolio{
+    height: 1900px;
+}
+.container-portfolio-picture{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 300px;
+}
+.container-portfolio-main{
+    margin-top: 2800px;
+}
+.container-contact{
+    height: 1500px;
+    margin-top: 1400px;
+}
+
+}
