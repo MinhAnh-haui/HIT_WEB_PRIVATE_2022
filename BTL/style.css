@@ -1,0 +1,163 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.clas{
+    color: red;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+}
+.menu__logo img{
+    width: 80px;
+    height: 70px;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+.menu__content{
+    display: flex;
+    margin-top: 20px;
+}
+.menu__content li{
+    list-style-type: none;
+}
+.menu__content li a{
+    margin: 5px 0;
+    padding: 5px 15px;
+    text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600;
+    font-size: 14px;
+    color: #333;
+    opacity: .8;
+    transition: background-color .1s;
+    background-color: rgb(0, 0, 0, 0);
+}
+.footer{
+    height: 80vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+}
+.footer-up{
+    display: flex;
+}
+.footer__left{
+    width: 75%;
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+}
+.footer__left--fast{
+    margin-left: 100px;
+}
+.footer-title{
+    width: auto;
+    color: white !important;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 600; 
+    padding: 25px 0px 10px 0px;
+}
+.footer__left--fast--main{
+    width: 100%;
+    display: flex;
+}
+.footer-content li{
+    list-style-type: none;
+    padding-top: 20px;
+    width: 33%;
+    float: left;
+}
+.footer-content li a{
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255, .4);
+}
+.footer-content li a:hover{
+    color: white;
+}
+
+.footer__left--form{
+    margin-top: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.footer-left--form--main--box{
+    background: #fff url(icon_mail.png) no-repeat;
+    background-size: 15px;
+    padding: 20px 10px 20px 35px;
+    background-position: 10px center;
+    width: 540px;
+    border: none;
+}
+.footer-left--form--main--btn{
+    background-color:  rgba(110, 110, 110, .5);
+    color: white;
+    padding: 20px 30px;
+    margin-left: 20px;
+    border: none;
+}
+.footer__right{
+    width: 25%;
+    margin-left: 60px;
+}
+.footer__right{
+    display: flex;
+    flex-direction: column;
+}
+.footer__right p{
+    font-size: 13px;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: rgb(255, 255, 255, .4);
+    line-height: 24px;
+}
+.footer__right p span{
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.footer__right .footer-title{
+    height: 50px;
+}
+.footer-down{
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    background-color: #333;
+    margin-top: -50px;
+}
+.footer-down-logo{
+    background-image: url(logo_mog.png);
+    background-size: 60px;
+    background-repeat: no-repeat;
+    display: block;
+    padding: 0px !important;
+    width: 60px;
+    height: 32px;
+    background-position: 0px 0px;
+    opacity: .4;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.footer-down a{
+    color: gray;
+    margin-right: 80px;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+    font-weight: 300;
+}
+.btn-country{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    line-height: 25px;
+}
+
